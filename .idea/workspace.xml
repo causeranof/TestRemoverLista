@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e598627-2b2e-4f45-94d6-ae182e295c60" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestRemoverLista/Test/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="7e598627-2b2e-4f45-94d6-ae182e295c60" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,11 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Test/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="84">
+              <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -64,14 +60,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Perro.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Perro.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Test/Perro.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+            <state relative-caret-position="210">
+              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
               <folding>
                 <element signature="e#96#97#0" expanded="true" />
                 <element signature="e#132#133#0" expanded="true" />
+                <element signature="e#165#166#0" expanded="true" />
+                <element signature="e#194#195#0" expanded="true" />
                 <element signature="e#178#179#0" expanded="true" />
                 <element signature="e#212#213#0" expanded="true" />
               </folding>
@@ -94,9 +92,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Test/Perro.java" />
         <option value="$PROJECT_DIR$/src/Test/LectorDeArchivosCSV.java" />
         <option value="$PROJECT_DIR$/src/Test/Main.java" />
+        <option value="$PROJECT_DIR$/src/Test/Perro.java" />
       </list>
     </option>
   </component>
@@ -210,6 +208,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3293718" />
@@ -219,7 +218,7 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.39898133" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.39898133" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3293718" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3293718" />
       <window_info id="Capture Tool" order="2" />
@@ -288,19 +287,8 @@
           <folding>
             <element signature="e#96#97#0" expanded="true" />
             <element signature="e#132#133#0" expanded="true" />
-            <element signature="e#178#179#0" expanded="true" />
-            <element signature="e#212#213#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test/Perro.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-          <folding>
-            <element signature="e#96#97#0" expanded="true" />
-            <element signature="e#132#133#0" expanded="true" />
+            <element signature="e#165#166#0" expanded="true" />
+            <element signature="e#194#195#0" expanded="true" />
             <element signature="e#178#179#0" expanded="true" />
             <element signature="e#212#213#0" expanded="true" />
           </folding>
@@ -346,10 +334,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Test/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="84">
+          <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/Perro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <folding>
+            <element signature="e#96#97#0" expanded="true" />
+            <element signature="e#132#133#0" expanded="true" />
+            <element signature="e#165#166#0" expanded="true" />
+            <element signature="e#194#195#0" expanded="true" />
+            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#212#213#0" expanded="true" />
           </folding>
         </state>
       </provider>
