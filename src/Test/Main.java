@@ -1,9 +1,7 @@
 package Test;
 
 import java.io.BufferedReader;
-import java.io.FileReader;
 import java.io.InputStreamReader;
-import java.util.Arrays;
 import java.io.IOException;
 
 public class Main {
@@ -21,10 +19,14 @@ public class Main {
         //Nótese que readLine siempre retorna String y la clase BufferedReader...
         //no tiene un método para leer enteros, así que debemos convertirlo.
 
-        int edad = Integer.parseInt(entrada);//Se transforma la entrada anterior en un entero
-        //Si el usuario ingresó solo números funcionará bien, de lo contrario generará una excepción
+        try{
+            int edad = Integer.parseInt(entrada);//Se transforma la entrada anterior en un entero
+            //Si el usuario ingresó solo números funcionará bien, de lo contrario generará una excepción
+            System.out.println("Gracias " + nombre + " en 10 años usted tendrá " + (edad + 10) + " años."); //Operacion numerica con la edad    }
+        }catch (NumberFormatException e){
+            System.out.println("Ingreso un valor invalido.");
+        }
 
-        System.out.println("Gracias " + nombre + " en 10 años usted tendrá " + (edad + 10) + " años."); //Operacion numerica con la edad    }
 
     }
 }
